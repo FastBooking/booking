@@ -155,7 +155,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     responseDiv.style.display = 'none';
     
     try {
-    const response = await fetch('https://hm6626.app.n8n.cloud/webhook-test/booking', {
+    const response = await fetch('https://hm6626.app.n8n.cloud/webhook/booking', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',

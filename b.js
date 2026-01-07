@@ -2,7 +2,7 @@ let urlBookingCode = '';
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('預約碼')) {
     urlBookingCode = urlParams.get('預約碼');
-    console.log('URL 預約碼:', urlBookingCode);https://github.com/FastBooking/booking/blob/main/b.js
+    console.log('URL 預約碼:', urlBookingCode);
 }
 
 window.addEventListener('DOMContentLoaded', function() {

@@ -2,7 +2,7 @@ let urlBookingCode = '';
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('預約碼')) {
     urlBookingCode = urlParams.get('預約碼');
-    console.log('URL 預約碼:', urlBookingCode);
+    console.log('URL 預約碼:', urlBookingCode);https://github.com/FastBooking/booking/blob/main/b.js
 }
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -155,7 +155,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     responseDiv.style.display = 'none';
     
     try {
-    const response = await fetch('https://hm6626.app.n8n.cloud/webhook/booking', {
+    const response = await fetch('https://fastbooking.app.n8n.cloud/webhook/booking', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',
